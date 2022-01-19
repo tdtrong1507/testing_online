@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="bg-info text-white">
+
+    <h1 class="display-3 text-center"> Testing Online</h1>
+    <section class="container">
+        <div id="questionContainer" class="mb-3">
+            <!-- MULTIPLE CHOICE QUESTION -->
+            <!-- <div>
+                <p class="lead font-italic" style="font-size: 30px;">
+                    Câu 1: Đáp án nào sau đây là đúng?
+                </p>
+                <div>
+                    <input value="2" class="answer-1" type="radio" name="answer-1">
+                    <label class="lead">Đáp án 1 cho câu 1</label>
+                </div>
+                <div>
+                    <input value="3" class="answer-1" type="radio" name="answer-1">
+                    <label class="lead">Đáp án 2 cho câu 1</label>
+                </div>
+                <div>
+                    <input value="4" class="answer-1" type="radio" name="answer-1">
+                    <label class="lead">Đáp án 3 cho câu 1</label>
+                </div>
+                <div>
+                    <input value="5" class="answer-1" type="radio" name="answer-1">
+                    <label class="lead">Đáp án 4 cho câu 1</label>
+                </div>
+            </div> -->
+
+            <!-- FILL IN BANK QUESTION -->
+            <!-- <div>
+                <p class="lead font-italic" style="font-size: 30px;">Câu 5 : Hãy nhập vào đáp án đúng</p>
+                <input id="answer-5" type="text" class="form-control w-50">
+            </div> -->
+
+        </div>
+
+        <button onclick="submit()" class="btn btn-light" id="btnSubmit">Sunmit</button>
+    </section>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"
+        integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./models/question.js"></script>
+    <script src="./models/multipleChoice.js"></script>
+    <script src="./models/fillIngBlank.js"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
